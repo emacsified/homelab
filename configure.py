@@ -13,10 +13,10 @@ import sys
 
 editor = os.getenv('EDITOR')
 seed_repo = "github.com/khuedoan/homelab"
-domain = "khuedoan.com"
+domain = "ashmcbri.de"
 
-if sys.version_info < (3, 10, 0):
-    raise Exception("Must be using Python >= 3.10.0")
+#if sys.version_info < (3, 10, 0):
+    #raise Exception("Must be using Python >= 3.10.0")
 
 if platform.system() != 'Linux':
     raise Exception("Only Linux is supported, please us a Linux VM or switch operating system")
