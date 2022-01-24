@@ -5,7 +5,7 @@ resource "kubernetes_secret" "terraform_secrets" {
   }
 
   data = {
-    "credentials.tfrc.json" = file("~/.terraform.d/credentials.tfrc.json")
+    "credentials.tfrc.json" = file("${path.root}/credentials.tfrc.json")
     "terraform.tfvars" = file("${path.root}/terraform.tfvars")
   }
 }

@@ -1,5 +1,5 @@
 resource "b2_bucket" "backup" {
-  bucket_name = "khuedoan-homelab-backup"
+  bucket_name = "ash-homelab-bucket"
   bucket_type = "allPrivate"
 }
 

@@ -1,5 +1,5 @@
 - name: Bootstrap external secrets
-  hosts: localhost
+  hosts: 192.168.1.110:6443
   vars_prompt:
     - name: cloudflare_email
       prompt: Enter Cloudflare email
