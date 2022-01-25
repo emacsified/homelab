@@ -12,7 +12,7 @@ import platform
 import sys
 
 editor = os.getenv('EDITOR')
-seed_repo = "github.com/notyou/homelab"
+seed_repo = "https://github.com/emacsified/homelab"
 domain = "ashmcbri.de"
 
 #if sys.version_info < (3, 10, 0):
