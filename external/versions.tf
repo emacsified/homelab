@@ -44,6 +44,8 @@ provider "b2" {
 }
 
 provider "kubernetes" {
+  host = "http://192.168.1.110:6443"
+
   # Use KUBE_CONFIG_PATH environment variables
   # Or in cluster service account
 }
